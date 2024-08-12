@@ -9,11 +9,27 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
 </head>
 <body>
+     <!-- side nav bar -->
+     <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000 " style="width: 50%; height: 100vh;right: -50%;">
+        <div class="text-right p-5">
+             <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+        <ul class="flex flex-col gap-10 items-center text-gray-600 ">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li><a class="hover:underline hover:text-black" href="product.html">Products</a></li>
+            <li><a class="hover:underline hover:text-black" href="contact.html">Contact</a></li>
+
+        </ul>
+
+
+     </section>
     <!-- responsive navabar -->
     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
         <h1 class="text-2xl">Greenden</h1>
         <!-- menu link -->
-        <div class="w-8 h-8 md:hidden"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        <div id="menuicon" class="w-8 h-8 md:hidden"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                 stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
@@ -37,7 +53,7 @@
     <section class="text-center">
         <h1 class="text-3xl font-bold mt-5 text-center">Our Products</h1>
         
-        <input placeholder="Search For a Products........" type="text" class="border border-black p-2 m-3" style="width: 80%;">
+        <input id="search" placeholder="Search For a Products........" type="text" class="border border-black p-2 m-3" style="width: 80%;">
         <br>
        
     
@@ -47,7 +63,7 @@
     
  <section class="p-4 text-center">
     
-    <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+    <div id="productcontainer" class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
         <div >
              <img src="images/img18.png"class="inline  hover:shadow-xl transform hover:-translate-y-2">
              <h1>Marigolds plants</h1>
@@ -65,87 +81,87 @@
    </div>
    <div>
     <img src="images/img7.png"class="inline hover:shadow-xl transform hover:-translate-y-2">
-    <h1>daisy plants</h1>
+    <h1>sunflower plants</h1>
     <p>$20</p>
 </div>
 <div >
     <img src="images/img8.png"class="inline  hover:shadow-xl transform hover:-translate-y-2">
-    <h1>Marigolds plants</h1>
+    <h1>violet flower</h1>
     <p>$20</p>
 </div>
 <div>
    <img src="images/img9.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
-   <h1>Tulips plants</h1>
+   <h1>poppy rose flower</h1>
    <p>$20</p>
 </div>
 <div>
 <img src="images/img10.png"class="inline hover:shadow-xl transform hover:-translate-y-2">
-<h1>lavender plants</h1>
+<h1>hibiscus flower</h1>
 <p>$20</p>
 </div>
 <div>
 <img src="images/img11.png"class="inline hover:shadow-xl transform hover:-translate-y-2">
-<h1>daisy plants</h1>
+<h1>begonia plant</h1>
 <p>$20</p>
 </div>
 <div >
     <img src="images/img12.png"class="inline  hover:shadow-xl transform hover:-translate-y-2">
-    <h1>Marigolds plants</h1>
+    <h1>canna lily flower</h1>
     <p>$20</p>
 </div>
 <div>
    <img src="images/img13.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
-   <h1>Tulips plants</h1>
+   <h1>hibiscus flower</h1>
    <p>$20</p>
 </div>
 <div>
 <img src="images/img14.png"class="inline hover:shadow-xl transform hover:-translate-y-2">
-<h1>lavender plants</h1>
+<h1>lilly flower</h1>
 <p>$20</p>
 </div>
 <div>
 <img src="images/img15.png"class="inline hover:shadow-xl transform hover:-translate-y-2">
-<h1>daisy plants</h1>
+<h1>white rose plant</h1>
 <p>$20</p>
 </div>
 <div >
     <img src="images/img16.png"class="inline  hover:shadow-xl transform hover:-translate-y-2">
-    <h1>Marigolds plants</h1>
+    <h1>ixora plant</h1>
     <p>$20</p>
 </div>
 <div>
    <img src="images/img17.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
-   <h1>Tulips plants</h1>
+   <h1>rainbow rose plant</h1>
    <p>$20</p>
 </div>
 <div>
 <img src="images/img24.png"class="inline hover:shadow-xl transform hover:-translate-y-2">
-<h1>lavender plants</h1>
+<h1>red rose plant</h1>
 <p>$20</p>
 </div>
 <div>
 <img src="images/img19.png"class="inline hover:shadow-xl transform hover:-translate-y-2">
-<h1>daisy plants</h1>
+<h1>snake plant</h1>
 <p>$20</p>
 </div>
 <div >
     <img src="images/img20.png"class="inline  hover:shadow-xl transform hover:-translate-y-2">
-    <h1>Marigolds plants</h1>
+    <h1>coral pea plant</h1>
     <p>$20</p>
 </div>
 <div>
    <img src="images/img21.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
-   <h1>Tulips plants</h1>
+   <h1>protea flower</h1>
    <p>$20</p>
 </div>
 <div>
 <img src="images/img22.png"class="inline hover:shadow-xl transform hover:-translate-y-2">
-<h1>lavender plants</h1>
+<h1>wisteria plant</h1>
 <p>$20</p>
 </div>
 <div>
 <img src="images/img23.png"class="inline hover:shadow-xl transform hover:-translate-y-2">
-<h1>daisy plants</h1>
+<h1>bleeding heart plant</h1>
 <p>$20</p>
 </div>
 
@@ -162,4 +178,6 @@
     <p>the standard chunk of lorem ipsum used since the 1500s is reprodused below for those intrest </p>
      <p>@ 2021 Greenday.com</p>
  </section>
+ 
+ <script src="product.js"></script>
 </body>
